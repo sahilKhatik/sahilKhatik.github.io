@@ -70,6 +70,13 @@ figure div.msgSymbol {
     transform: translate(0, 50%);
 }
 
+figure div.msgSymbol svg{
+    width: calc(2vw + 50px);
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
 /* Section first */
 section.first .d-flex {
     position: relative;
