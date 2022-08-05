@@ -1,0 +1,216 @@
+body {
+    font-size: inter;
+}
+body a {
+    text-decoration: none;
+}
+/* Nav Bar */
+nav {
+    position: absolute;
+    z-index: 2;
+}
+nav .dropdown-toggle::after {
+    display: none !important;
+}
+nav ul.navbar-nav > li > a{
+    font-family: 'Inter';
+    color: #7B7B7B !important;
+    
+}
+nav .navbar-nav > * :not(:last-child) {
+    margin-right: 10px;
+}
+
+#loginButton {
+    margin-right: 15px;
+    color: #7B7B7B;
+}
+
+#signUpButton {
+    background-color: #FF4040;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* main image */
+figure.main-image {
+position: relative;
+}
+
+figure.main-image .heading 
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-size: 6vw;
+    color: #FFFFFF;
+}
+
+figure.main-image .description
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: auto;
+    transform: translate(-50%, 0);
+
+    font-size: 2vw;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+figure div.msgSymbol {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transform: translate(0, 50%);
+}
+
+/* Section first */
+section.first .d-flex {
+    position: relative;
+    height: auto;
+}
+section.first .card {
+    color: #000000;
+    border: none;
+
+    
+    width: 20rem;
+}
+
+section.first .card a {
+    position: absolute;
+    bottom: 10px;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Section Second */
+
+section.second {
+    margin-top: 10%;
+    padding-bottom: 10%;
+    
+    border: 1px solid #FFFFFF;
+
+    background: url("data:image/svg+xml, %3Csvg%20width%3D%221440%22%20height%3D%221182%22%20viewBox%3D%220%200%201440%201182%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M385.052%201.80164C641.5%20-15.5002%20918%20225.774%201452.67%2043.5242V1182H-6.20203V598.897L-6.20273%20140.469C-23.4075%20142.657%20-78.4865%20115.138%20-133.244%2085.0461C-162.055%2077.4839%20-190.972%2064.2534%20-220.705%2043.5242C-319.355%20-25.2527%20-226.768%2033.65%20-133.244%2085.0461C11.9128%20123.146%20154.388%2017.3639%20385.052%201.80164Z%22%20fill%3D%22%23FFDFDF%22%20fill-opacity%3D%220.61%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+
+    
+}
+
+section.second .container
+{
+    height: auto;
+    margin-top: 70px;
+}
+
+section.second .container > h3 {
+    
+    margin-left: 15%;
+    margin-bottom: 8%;
+}
+
+section.second .card {
+    border: 1px solid #C6C6C6;
+    border-radius: 0;
+}
+
+section.second .card img {
+    border: none;
+}
+
+section.second .d-flex .card .card-text{
+    position: relative;
+    left: 20px;
+}
+
+section.second .card a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Third Section */
+section.footer {
+    color: #FFFFFF;
+    background: #161C28;
+    ;
+}
+
+section.footer .container h2{
+    font-size: calc(30px + 2vw);
+
+}
+
+section.footer .container .row .text-content{
+    text-align: justify;
+    
+    width: 80%;
+    font-size: calc(0.5vw + 11px);
+    color: #A6A6A6;
+}
+
+section.footer .container .pics img {
+    margin-right: 5px;
+}
+
+section.footer .container form {
+    background: #222938;
+    padding-top: 10%;
+
+    border-radius: 2%;
+}
+
+section.footer .container form .form-content {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+section.footer .container form .form-content :is(.form-control, button) {
+    border-radius: 10px;
+}
+
+section.footer .container form div.logo {
+    display: block;
+    text-align: center;
+}
+
+section.footer .container form p.para1 {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: calc(2vw + 10px);
+}
+
+section.footer .row2 {
+    margin-top: 10%;
+}
+
+section.footer .row2 input[type=email]::placeholder
+{
+    color: #A6A6A6;
+    font-weight: 450;
+}
+
+section.footer .row2 .d-flex p:not(:first-child) {
+    color: #A6A6A6;
+}
+
+
+
+
+
