@@ -160,7 +160,7 @@ section.third .rating-stars{
 section.products {
     width: 80%;
 
-    text-align: center;
+    text-align: auto;
 
     margin-top: 10%;
     position: relative;
